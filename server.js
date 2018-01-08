@@ -86,7 +86,11 @@ app.get("/short/:longURL(*)", function (request, response) {
      checkExist();
     }); // mongodb end
   } else {
-      response.send('Not a valid URL');
+    data = {
+      longURL,
+      shortURL:'Not a valid URL'
+    }
+      response.send(data);
   }
 });
 app.get("/:shortURL(*)", function (request, response) {
