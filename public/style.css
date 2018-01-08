@@ -1,0 +1,42 @@
+
+/* styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 25px;
+  background: #efefef;
+}
+main {
+  width: 90%;
+  margin-left: 5%;
+}
+code {
+  padding:5px;
+  background: lightblue;
+  font-size: 1rem;
+}
+.url {
+  color: darkblue;
+}
+.res {
+  min-width: 400px;
+  height: 100px;
+  border: 1px solid darkgrey;
+  padding: 5px;
+  font-family: serif;
+  background: white;
+}
+h1 {
+  font-weight: bold;
+  color: darkblue;
+  text-align: center;
+}
+
+li {
+  margin-bottom: 5px;
+  padding: 5px;
+}

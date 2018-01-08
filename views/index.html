@@ -1,0 +1,56 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>URL shortner</title>
+    <meta name="description" content="URL shortner">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+   <body>
+    <header>
+      <h1>
+        Timestamp Microservice
+      </h1>
+    </header>
+
+    <main>
+      
+        <h3>
+          Example usage:
+        </h3>
+        Append a URL you want to shorten to the URL of the app + /short/ like this: <code class="url">https://short-url-inka.glitch.me/short/www.freecodecamp.org</code>
+        
+      <br><br>
+        <h3>
+          Example output:
+        </h3>
+          If your input is a valid URL, the output will look something like this: 
+      
+      <br><br>
+      
+      <div class="res">{"longURL":"http://www.freecodecamp.org","shortURL":"5","_id":"5a537d7b293c374536a1e27c"}</div>
+      
+      <br><br>
+      
+        When you recive your shortURL you can start to use it by appending it to the app URL like this:
+        <code class="url">https://short-url-inka.glitch.me/5</code>
+      
+      <br><br>
+        and you will be redirected to your long URL.
+      
+    </main>
+
+  </body>
+</html>
